@@ -1,0 +1,85 @@
+body {
+    cursor: auto;
+}
+* {
+    box-sizing: border-box;
+    font-family: "Calibri Light";
+}
+.box1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 500px;
+}
+.content {
+    text-align: center;
+    margin: 100px;
+}
+.button{
+    text-align: center;
+}
+.header {
+    height: 50px;
+    background-color: #434242;
+
+}
+.header header {
+    padding: 15px 50px;
+    color: white;
+
+}
+.header header i {
+    margin: 10px;
+}
+h1,p,.button{
+    font-size: 30px;
+}
+.button button {
+    font-size: 20px;
+    height: 40px;
+    border-radius: 5px;
+}
+.button #button1 {
+    background-color: cornflowerblue;
+    color: white;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+
+.card {
+    width: 400px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+.car1{
+    padding: 80px;
+    width: 100%;
+    background-color: #434242;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.card p {
+    padding: 10px;
+    font-size: 20px;
+}
+.card button {
+    font-size: 20px;
+    border-radius: 5px;
+
+
+}
+.card  i {
+    margin: 10px 20px;
+    float: right;
+}
+button:hover {
+    cursor: pointer;
+}
